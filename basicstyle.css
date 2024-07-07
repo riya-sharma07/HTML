@@ -1,0 +1,41 @@
+
+
+.title{
+    background-color: darkgray;
+    /* width: 80rem; */
+    text-align: center;
+    border: 1px solid black; 
+}
+.anchor{
+    background-color: darkgray;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.anchor>a{
+    text-decoration: none;
+    color: black;
+}
+.main>h4{
+    font-size: 1.5rem;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    /* height: 35rem; */
+
+}
+.main{
+    width: 190rem;
+    border: 1px solid black;
+    background-color: lightgray;
+    padding-left: 1rem;
+    
+}
+.aside{
+    border: 0.5px solid black;
+    background-color: lightgray;
+    width: 45rem;
+    padding-left: 0.5rem;
+}
